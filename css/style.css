@@ -4,6 +4,9 @@
 .w-80 {
     width: 80%;
 }
+.w-70 {
+    width: 70%;
+}
 .w-15 {
     width: 15%;
 }
@@ -318,8 +321,6 @@ div.head-bg:hover{
     height: 500px;
     border: 3px solid black;
 }   
-
-
 .card-bg3 {
     background-color: rgb(253, 231, 244);
     height: 500px;
@@ -368,7 +369,11 @@ div.inner-1-3:hover{
   transform: translate(-2px, -2px);
   box-shadow: 7px 7px black;   
 }
-div.rocket-btn:hover button{
+div.rocket-btn-star:hover button.rocket-btn-1{
+  transform: translate(5px, 5px);
+  box-shadow: none; 
+}
+div.rocket-btn:hover button.rocket-btn-2{
   transform: translate(5px, 5px);
   box-shadow: none; 
 }
@@ -465,7 +470,6 @@ word-spacing: 3px
 .bg-purple{
     background-color: rgb(173, 71, 255);
 }
-
 .bg-purple-0{
     background-color: rgb(254, 165, 213);
 }
@@ -532,7 +536,6 @@ background-color: rgb(243, 232, 255);
     cursor: pointer;
     margin-bottom: 16px;
 }
-
  input{
     margin: 0;
     font-family: inherit;
@@ -563,7 +566,6 @@ background-color: rgb(243, 232, 255);
     user-select: none;
     transition: translate o.2s ,background-color .15s ease-in-out,border-color .15s ease-in-out,box-shadow .15s ease-in-out;
 }
-
 button.btn-footer:hover{
      transform: translate(5px, 5px);
      box-shadow: none; 
